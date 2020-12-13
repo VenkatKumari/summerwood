@@ -1,0 +1,100 @@
+@import "./base";
+
+.contact-section {
+  min-height: 90vh;
+  width: 100%;
+  margin: auto;
+  background: white;
+
+  .contact-header {
+    h1 {
+      background: linear-gradient(to bottom, #f2994a 30%, #f2c94c 90%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 4rem;
+      padding: 5rem 0rem;
+      text-align: center;
+    }
+  }
+
+  .contact-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 5rem;
+  }
+
+  .input-name,
+  .input-email,
+  .input-message {
+    padding: 2.5rem 0rem;
+
+    input {
+      padding: 1.3rem 0rem;
+      padding-right: 20rem;
+    }
+    textarea {
+      width: 100%;
+      border: none;
+      border: 0.5px solid $primary-yellow;
+    }
+  }
+
+  .contact-address,
+  .contact-timing {
+    h2,
+    p {
+      padding: 1rem 2rem;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+}
+
+input {
+  background: white;
+  border: none;
+  border-bottom: 0.5px solid $primary-yellow;
+}
+
+textarea::placeholder,
+input::placeholder {
+  padding-top: 1rem;
+  color: #aaa;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button {
+  width: 100%;
+
+  &:hover {
+    background: $primary-yellow;
+    font-size: 1.8rem;
+    color: black;
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+.contact-info,
+.contact-form {
+  padding: 3rem 3rem;
+  margin: 0rem 5rem;
+  background: white;
+  box-shadow: 1px 1px 15px $primary-yellow;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+.pin,
+.phonecall,
+.time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

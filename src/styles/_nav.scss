@@ -1,0 +1,41 @@
+.nav {
+  background: white;
+
+  min-height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0rem 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+
+  .logo {
+    flex: 1 1 10rem;
+    display: flex;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    h1 {
+      font-family: "Special Elite", cursive;
+    }
+  }
+  .nav-list {
+    flex: 1 1 10rem;
+    ul {
+      display: flex;
+
+      li {
+        list-style: none;
+        padding-left: 3rem;
+        text-shadow: 1px 1px 5px rgb(165, 163, 163);
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}

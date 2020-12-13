@@ -1,0 +1,22 @@
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
+    url(../img/livingarea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .hero-text {
+    z-index: 1;
+    color: white;
+    p {
+      padding-bottom: 4rem;
+    }
+
+    span {
+      color: rgb(252, 177, 25);
+    }
+  }
+}

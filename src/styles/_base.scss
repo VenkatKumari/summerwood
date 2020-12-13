@@ -1,0 +1,25 @@
+$primary-yellow: rgb(252, 177, 25);
+$background-gray: #f1f1f1;
+
+button {
+  outline: none;
+  margin-top: 1.5rem;
+  background: rgb(252, 177, 25);
+  border: none;
+  color: black;
+  padding: 1.5rem 5rem;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-size: 1.8rem;
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+.summerwood-yellow {
+  color: $primary-yellow;
+}

@@ -1,0 +1,74 @@
+@import "./base";
+
+.about-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f1f1f1;
+  justify-content: center;
+  align-items: center;
+
+  .about-header {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0rem;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 5rem;
+      background: linear-gradient(to bottom, #f2994a 30%, #f2c94c 90%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    p {
+      font-size: 3.5rem;
+    }
+  }
+  .about-cards {
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+    .card {
+      flex: 1 1 20rem;
+      padding: 5rem 2rem;
+      margin: 0rem 1rem;
+      display: flex;
+      flex-direction: column;
+      background: white;
+      box-shadow: 1px 1px 5px rgb(204, 197, 197);
+
+      .card-logo {
+        background: $primary-yellow;
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem 0rem;
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+      .card-detail {
+        padding: 3rem 2rem;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+          font-weight: bold;
+        }
+        p {
+          padding: 2rem 0rem;
+          font-size: 1.7rem;
+          line-height: 3.2rem;
+        }
+      }
+    }
+  }
+}
