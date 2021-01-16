@@ -11,14 +11,14 @@ const Nav = () => {
       <div className="nav-list">
         <ul>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/summerwood/about">About</Link>
           </li>
 
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/summerwood/gallery">Gallery</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/summerwood/contact">Contact</Link>
           </li>
         </ul>
       </div>
