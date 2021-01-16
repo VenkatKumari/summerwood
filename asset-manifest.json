@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/summerwood/static/css/main.074ca99a.chunk.css",
+    "main.js": "/summerwood/static/js/main.77da2631.chunk.js",
+    "main.js.map": "/summerwood/static/js/main.77da2631.chunk.js.map",
+    "runtime-main.js": "/summerwood/static/js/runtime-main.dc34d764.js",
+    "runtime-main.js.map": "/summerwood/static/js/runtime-main.dc34d764.js.map",
+    "static/js/2.872c4343.chunk.js": "/summerwood/static/js/2.872c4343.chunk.js",
+    "static/js/2.872c4343.chunk.js.map": "/summerwood/static/js/2.872c4343.chunk.js.map",
+    "static/js/3.9713e0aa.chunk.js": "/summerwood/static/js/3.9713e0aa.chunk.js",
+    "static/js/3.9713e0aa.chunk.js.map": "/summerwood/static/js/3.9713e0aa.chunk.js.map",
+    "index.html": "/summerwood/index.html",
+    "static/css/main.074ca99a.chunk.css.map": "/summerwood/static/css/main.074ca99a.chunk.css.map",
+    "static/js/2.872c4343.chunk.js.LICENSE.txt": "/summerwood/static/js/2.872c4343.chunk.js.LICENSE.txt",
+    "static/media/bestservice.4e540071.svg": "/summerwood/static/media/bestservice.4e540071.svg",
+    "static/media/facebook.4b266d41.svg": "/summerwood/static/media/facebook.4b266d41.svg",
+    "static/media/honesty.4121e1ce.svg": "/summerwood/static/media/honesty.4121e1ce.svg",
+    "static/media/instagram.b0a8a345.svg": "/summerwood/static/media/instagram.b0a8a345.svg",
+    "static/media/listing1.344bcc15.jpg": "/summerwood/static/media/listing1.344bcc15.jpg",
+    "static/media/listing2.b4b346c7.jpg": "/summerwood/static/media/listing2.b4b346c7.jpg",
+    "static/media/listing3.8b5f086e.jpg": "/summerwood/static/media/listing3.8b5f086e.jpg",
+    "static/media/listing4.325d027f.jpg": "/summerwood/static/media/listing4.325d027f.jpg",
+    "static/media/listing5.be7ccde6.jpg": "/summerwood/static/media/listing5.be7ccde6.jpg",
+    "static/media/listing6.2f63d427.jpg": "/summerwood/static/media/listing6.2f63d427.jpg",
+    "static/media/listing7.fc8dd910.jpg": "/summerwood/static/media/listing7.fc8dd910.jpg",
+    "static/media/listing8.6eeb9d9e.jpg": "/summerwood/static/media/listing8.6eeb9d9e.jpg",
+    "static/media/main.scss": "/summerwood/static/media/livingarea.4a4f54ec.jpg",
+    "static/media/phone-call.48d8b122.svg": "/summerwood/static/media/phone-call.48d8b122.svg",
+    "static/media/pin.b0cf6d28.svg": "/summerwood/static/media/pin.b0cf6d28.svg",
+    "static/media/quickprocess.cae3fa7c.svg": "/summerwood/static/media/quickprocess.cae3fa7c.svg",
+    "static/media/time.3744d051.svg": "/summerwood/static/media/time.3744d051.svg",
+    "static/media/twitter.ca6dab93.svg": "/summerwood/static/media/twitter.ca6dab93.svg",
+    "static/media/youtube.cb1a5678.svg": "/summerwood/static/media/youtube.cb1a5678.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc34d764.js",
+    "static/js/2.872c4343.chunk.js",
+    "static/css/main.074ca99a.chunk.css",
+    "static/js/main.77da2631.chunk.js"
+  ]
+}
