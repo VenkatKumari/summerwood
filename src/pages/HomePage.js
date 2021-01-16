@@ -3,6 +3,7 @@ import Hero from "../components/HeroSection";
 import About from "../components/AboutSection";
 import Contact from "../components/Contact";
 import Gallery from "../components/Gallery";
+import FooterSection from '../components/FooterSection';
 
 const HomePage = () => {
   return (
@@ -10,8 +11,9 @@ const HomePage = () => {
       <Nav />
       <Hero />
       <About />
-      <Contact />
       <Gallery />
+      <Contact />
+      <FooterSection />
     </div>
   );
 };

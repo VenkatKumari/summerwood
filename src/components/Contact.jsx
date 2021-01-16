@@ -21,7 +21,7 @@ const Contact = () => {
               id=""
               cols="30"
               rows="10"
-              placeholder="Message"
+              placeholder="Let us get to know you and your needs"
             ></textarea>
           </div>
           <button>SEND</button>

@@ -2,7 +2,7 @@
 .gallery-section {
   min-height: 80vh;
 
-  background: #f1f1f1;
+  background: linear-gradient(to bottom, #f2994a 30%, #f2c94c 90%);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -14,7 +14,7 @@
       background: linear-gradient(to bottom, #f2994a 30%, #f2c94c 90%);
       background-clip: text;
       -webkit-background-clip: text;
-      color: transparent;
+      color: white;
       font-size: 4rem;
     }
   }

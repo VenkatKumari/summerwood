@@ -1,0 +1,33 @@
+@import "./base";
+
+.footer-section {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-height: 14vh;
+  margin: 0rem 5rem;
+  padding-top: 3rem;
+
+  li {
+    list-style: none;
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+
+  .footer-contact .social-links {
+    img {
+      padding: 0.5rem 0.5rem;
+    }
+  }
+}
+
+.footer {
+  min-height: 16vh;
+  background: linear-gradient(to bottom, #f2994a 30%, #f2c94c 90%);
+  color: rgb(71, 5, 5);
+}
